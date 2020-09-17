@@ -1,0 +1,165 @@
+#widgetContainer {
+    background: #2c2c2c;
+    color: #ffffff;
+    margin:auto;
+    margin-top: 3%;
+    font-size: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 280px;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    border: 2px solid grey;
+  }
+  
+  .userData {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    padding-left: 5px;
+    height: 100%;
+    color: #646464;
+    font-size: 10px;
+    text-align: start;
+    width: 100%;
+  }
+
+  #contactType {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    top: 1px;
+    right: 3px;
+    padding:3px 3px 3px 5px;
+    background: url(https://www.iconfinder.com/data/icons/pixel-perfect-at-24px-volume-3/24/5000-512.png) right / 90%  no-repeat #fff;
+    background-size: 13px;    
+  }
+  
+  #contactType .check {
+    display: none !important;
+  }
+
+  #contactType .check:active {
+    display: inline;
+  }
+
+  #widgetHeader {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid black;
+    background-color: #212121;
+    background-image: linear-gradient(180deg, #3a3a3a 0%,  #212121 74%);
+}
+
+
+  #top {
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+  #contactsList {
+    border: 1px solid black;
+    border-spacing: 0px;
+    background: #212121;
+    position: relative;
+    z-index: 1
+  }
+  
+  tr:nth-child(even) {
+    background: #1a1a1a;
+  }
+  
+  .name {
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    pointer-events: auto;
+    position: relative;
+  }
+  
+  .name:hover {
+    background: #464646;
+  }
+  
+  .hover {
+    background: #464646;
+    width: 145px;
+    font-size: 10px;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    padding-left: 15px;
+    z-index: 3;
+  }
+  
+  .hover p:first-child {
+    text-decoration: underline;
+    color: #00f6ff;
+  }
+
+  .bulletStatus-available {
+    background-color: #00ff1e;
+    position: relative;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .bulletStatus-unavailable {
+    background-color: #ff0000;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .bulletStatus-away {
+    background-color: #fffc00;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  #widgetFooter {
+    background: #212121;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .screen {
+    position: absolute;
+    background: black;
+    filter: opacity(70%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+  }
+  
+  .check {
+      display:none
+  }
+
+  span .active {
+      display: flex;
+  }
